@@ -9,12 +9,10 @@ class App extends Component {
   render() {
     return (
       <ThemeProvider theme={colorsDark}>
-        <div>
-          <Wrapper>
-            <Title>Hacker News Clone</Title>
-            <List />
-          </Wrapper>
-        </div>
+        <Wrapper>
+          <Title>Hacker News Clone</Title>
+          <List />
+        </Wrapper>
       </ThemeProvider>
     );
   }
