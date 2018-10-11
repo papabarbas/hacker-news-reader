@@ -2,7 +2,7 @@ import { actionTypes } from './actions';
 
 const getInitialState = () => ({
   storyIds: [],
-  story: [],
+  stories: [],
   page: 0,
   isFetching: false,
   error: ''
