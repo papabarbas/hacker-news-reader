@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/hacker-news-clone/precache-manifest.69a4ce9b3deadf355b7ef5842564e081.js"
+  "/hacker-news-reader/precache-manifest.1fdbe926bab9b0fbfccb33db7b29d5bb.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/hacker-news-clone/index.html", {
+workbox.routing.registerNavigationRoute("/hacker-news-reader/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
